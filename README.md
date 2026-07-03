@@ -1,54 +1,89 @@
-# 🍮 Página de Receita de Pudim
+# 🍮 Receita de Pudim
 
-Uma página simples desenvolvida com **HTML5** e **CSS3** para praticar a criação de estruturas semânticas e estilização de páginas web.
+<p align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+</p>
+
+<p align="center">
+Uma página estática desenvolvida com <strong>HTML5</strong> e <strong>CSS3</strong> para praticar estruturação semântica, estilização e organização de código.
+</p>
+
+--- 
 
 ## 📖 Sobre o projeto
 
-Este projeto apresenta uma receita de pudim em uma interface limpa e organizada. O objetivo foi praticar conceitos fundamentais do desenvolvimento front-end, como:
+Esta página apresenta uma receita de pudim em um layout simples, organizado e responsivo, criada com o objetivo de praticar os fundamentos do desenvolvimento Front-end.
 
-* Estruturação de conteúdo com HTML5;
+Durante o desenvolvimento foram aplicados conceitos como:
+
+* Estrutura semântica com HTML5;
+* Organização dos elementos da página;
 * Estilização utilizando CSS3;
-* Organização do código;
-* Boas práticas de marcação semântica.
+* Boas práticas de escrita de código;
+* Hierarquia visual.
 
-## 🚀 Tecnologias utilizadas
+---
+
+## 🚀 Tecnologias
 
 * HTML5
 * CSS3
 
-## 📂 Estrutura do projeto
+---
 
-```text
-📁 projeto
- ├── index.html
- ├── style.css
-```
+## 🎯 Objetivos de aprendizado
 
-## 🎯 Objetivo
+* ✔ Estruturar páginas com HTML5
+* ✔ Utilizar CSS para estilização
+* ✔ Organizar arquivos do projeto
+* ✔ Desenvolver interfaces simples
+* ✔ Criar um projeto para portfólio
 
-Este projeto faz parte dos meus estudos em desenvolvimento web e foi criado para reforçar os conceitos básicos de HTML e CSS através da construção de uma página estática.
+---
 
 ## 💻 Como executar
 
-1. Clone este repositório:
+Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/DevCage27/ReceitaPage.git
 ```
 
-2. Acesse a pasta do projeto.
+Acesse a pasta:
 
-3. Abra o arquivo `index.html` no navegador.
+```bash
+cd NOME_DO_REPOSITORIO
+```
 
-## 📚 Aprendizados
+Depois, basta abrir o arquivo **index.html** no navegador.
 
-Durante o desenvolvimento deste projeto, pratiquei:
+---
 
-* Estrutura semântica em HTML;
-* Seletores e propriedades do CSS;
-* Organização de arquivos;
-* Estilização de textos, listas e imagens.
+## 📈 Status do projeto
 
-## ✨ Autor
+🟢 Projeto finalizado.
 
-Desenvolvido por **Geo Ramos** como parte dos estudos em desenvolvimento Front-end, no curso Serasa Experian, Transforme-se.
+Possíveis melhorias futuras:
+
+* Adicionar modo escuro;
+* Inserir animações com CSS;
+* Melhorar a acessibilidade.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Geo Ramos**.
+
+Se gostou do projeto, deixe uma ⭐ no repositório!
+
+---
+
+<p align="center">
+Feito com ❤️ durante os estudos de Desenvolvimento Front-end, Transforme-se.
+</p>
