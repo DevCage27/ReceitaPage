@@ -1,76 +1,124 @@
-/* Cor de fundo da página */
+/* Fundo da página */
 body {
-    background-color: #7f93ec;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ff6b6b, #feca57, #48dbfb);
+    background-attachment: fixed;
 }
 
 /* Caixa principal */
 .container {
-    background-color: white;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
-    padding: 20px;
-    border: 3px solid rgb(80, 99, 168);
-    border-radius: 10px;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
 }
 
 /* Título */
 h1 {
     text-align: center;
-    color: rgb(42, 84, 152);
-    font-size: 36px;
+    font-size: 42px;
+    color: #ff4757;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /* Subtítulos */
 h2 {
-    color: rgb(42, 84, 152);
-    font-size: 26px;
+    color: #3742fa;
+    border-left: 8px solid #ff9f43;
+    padding-left: 10px;
+    margin-top: 0;
 }
 
 /* Texto */
-p, li {
+p,
+li {
     font-size: 18px;
+    line-height: 1.7;
+    color: #2f3542;
+}
+
+/* Informações */
+.info {
+    text-align: center;
+    background: linear-gradient(90deg, #74b9ff, #a29bfe);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 25px 0;
+    font-weight: bold;
 }
 
 /* Imagem */
 img {
-    width: 100%;
-    max-width: 500px;
     display: block;
-    margin: 20px auto;
-    border: 4px solid rgb(42, 84, 152);
-    border-radius: 10px;
+    width: 100%;
+    max-width: 550px;
+    margin: 30px auto;
+    border-radius: 20px;
+    border: 6px solid #ff9f43;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transition: transform .3s;
 }
 
-/* Infos extras */
-.info {
-    text-align: center;
-    margin-bottom: 20px;
+img:hover {
+    transform: scale(1.04);
 }
 
-/* Flexbox */
+/* Organização */
 .conteudo {
     display: flex;
-    gap: 20px;
-    justify-content: space-between;
+    gap: 25px;
+    margin-top: 30px;
 }
 
-/* Ingredientes */
+/* Caixa de ingredientes */
 .ingredientes {
-    background-color: #fff3b0;
-    padding: 15px;
-    border: 2px solid orange;
-    width: 45%;
+    flex: 1;
+    background: linear-gradient(180deg, #ffeaa7, #fdcb6e);
+    padding: 25px;
     border-radius: 20px;
+    border: 3px solid #e17055;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
 }
 
-/* Modo de preparo */
+/* Caixa de preparo */
 .preparo {
-    background-color: #f8f8f8;
-    padding: 15px;
-    border: 2px solid gray;
-    width: 55%;
+    flex: 2;
+    background: linear-gradient(180deg, #81ecec, #74b9ff);
+    padding: 25px;
     border-radius: 20px;
+    border: 3px solid #0984e3;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+}
+
+/* Listas */
+ul,
+ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .conteudo {
+        flex-direction: column;
+    }
+
+    .ingredientes,
+    .preparo {
+        width: auto;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
 }
